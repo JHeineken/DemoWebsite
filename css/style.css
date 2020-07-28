@@ -28,6 +28,14 @@ ul{
     color:#ffffff;
 }
 
+.dark{
+    padding:15px;
+    background:#35424a;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 
 /* header */
 header{
@@ -140,6 +148,27 @@ header a:hover{
 
 #boxes .box .fas.fa-laptop{
     font-size: 75px;
+}
+
+/* Sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top:10px;
+}
+
+/* main-coL */
+article#main-col{
+    float: left;
+    width: 65%;
+}
+/* Services */
+ul#services li{
+    list-style:none;
+    padding:20px;
+    border:#cccccc solid 1px;
+    margin-bottom:5px;
+    background:#e6e6e6
 }
 
 footer{
